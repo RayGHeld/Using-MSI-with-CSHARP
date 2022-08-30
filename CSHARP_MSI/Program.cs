@@ -16,7 +16,7 @@ namespace CSHARP_MSI
     {
         static string userAssignedClientId = "{client id}"; //"e167919d-4e6a-4149-96e2-90c49d141978"; //client id for the user assigned MSI
         static string keyVaultSecretName = "{keyvault secret name}"; //name for the keyvault secret
-        static Uri keyVaultUri = new UriBuilder("https://rays-keyvault.vault.azure.net/").Uri;
+        static Uri keyVaultUri = new UriBuilder("{uri for your keyvault}").Uri;
 
         static void Main(string[] args)
         {
